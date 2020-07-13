@@ -1,6 +1,6 @@
 /*
 Time complexity : O(n)
-Space complexity :O(1)
+Space complexity :O(n) (recursion stack results in linear space consumption)
 My approach : Traverse both the trees simultaneously and check for the node-> val and also keep an eye on when one tree terminates faster than the other.
 */
 /**
